@@ -14,25 +14,25 @@ const CONFIG = {
     STORES: [
         {
             id: 'store1',
-            name: 'Restaurante El Sabor',
-            description: 'Comida tradicional cubana y platos internacionales',
-            address: 'Calle 23, La Habana',
-            phone: '+53 5555-1234',
+            name: 'Café Matojo',
+            description: 'Baristas profesionales, su mejor opción al alcance de un click',
+            address: 'Guanajay',
+            phone: '',
             whatsappNumber: '5355551234',
             products: [
                 {
                     id: 1,
-                    name: "Ropa Vieja",
-                    description: "Plato tradicional cubano de carne deshebrada",
-                    price: 12.99,
-                    image: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&h=500&q=80"
+                    name: "Café Suturado",
+                    description: "Café cortado",
+                    price: 1.20,
+                    image: "cortado.jpg"
                 },
                 {
                     id: 2,
-                    name: "Arroz con Pollo",
-                    description: "Arroz amarillo con pollo y vegetales",
-                    price: 10.99,
-                    image: "https://images.unsplash.com/photo-1512058556646-c4da40fba323?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&h=500&q=80"
+                    name: "Café Exconvicto ",
+                    description: "Café expreso",
+                    price: 0.80,
+                    image: "cafeexpreso.jpg"
                 }
             ]
         },

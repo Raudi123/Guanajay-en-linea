@@ -3,7 +3,7 @@ function Header({ cartCount, onCartClick }) {
         return (
             <header data-name="header" className="bg-gray-800 text-white p-4 shadow-lg">
                 <div className="container mx-auto flex justify-between items-center">
-                    <h1 data-name="header-title" className="text-2xl font-bold">Tu Tienda de Alimentos</h1>
+                    <h1 data-name="header-title" className="text-2xl font-bold">guanajay-online</h1>
                     <button 
                         data-name="cart-button"
                         onClick={onCartClick}
