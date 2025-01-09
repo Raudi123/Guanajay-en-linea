@@ -4,12 +4,13 @@ const CONFIG = {
     PAYMENT_METHODS: {
         ZELLE: 'Zelle',
         TRANSFER_CUP: 'Transferencia CUP',
+        CASH_CUP:'Efectivo',
         TRANSFER_MLC: 'Transferencia MLC',
         CASH: 'Efectivo'
     },
     CONVERSION_RATES: {
-        CUP: 320,
-        MLC: 1.15
+        CUP: 330,
+        MLC: 1.25
     },
     STORES: [
         {

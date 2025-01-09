@@ -17,6 +17,8 @@ function Cart({ items, onClose, onUpdateQuantity, onRemoveItem, store }) {
             switch (customerData.paymentMethod) {
                 case 'Transferencia CUP':
                     return baseTotal * CONFIG.CONVERSION_RATES.CUP;
+                 case 'Efectivo CUP':
+                    return baseTotal * CONFIG.CONVERSION_RATES.CUP;
                 case 'Transferencia MLC':
                     return baseTotal * CONFIG.CONVERSION_RATES.MLC;
                 default:
@@ -27,6 +29,8 @@ function Cart({ items, onClose, onUpdateQuantity, onRemoveItem, store }) {
         const formatTotal = (total, paymentMethod) => {
             switch (paymentMethod) {
                 case 'Transferencia CUP':
+                    return `${total.toFixed(2)} CUP`;
+                case 'Efectivo CUP':
                     return `${total.toFixed(2)} CUP`;
                 case 'Transferencia MLC':
                     return `${total.toFixed(2)} MLC`;
@@ -283,6 +287,7 @@ ${baseItemsList}
                                                 <option value="Zelle">Zelle</option>
                                                 <option value="Transferencia CUP">Transferencia CUP</option>
                                                 <option value="Transferencia MLC">Transferencia MLC</option>
+                                                <option value="Efectivo CUP">Efectivo al recibir CUP</option>
                                                 <option value="Efectivo">Efectivo al recibir</option>
                                             </select>
                                         </div>
