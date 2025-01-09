@@ -63,25 +63,25 @@ const CONFIG = {
         },
         {
             id: 'store3',
-            name: 'Cafetería Dulce',
-            description: 'Postres, dulces y bebidas calientes',
-            address: 'Avenida 5ta, Miramar',
-            phone: '+53 5555-5678',
-            whatsappNumber: '5355555678',
+            name: 'MC Logistic',
+            description: 'La excelencia a su puerta',
+            address: 'Guanajay',
+            phone: '',
+            whatsappNumber: '5354066204',
             products: [
                 {
                     id: 1,
-                    name: "Flan de Caramelo",
-                    description: "Flan casero con salsa de caramelo",
+                    name: "Whisky Johnnie Walker Black Label",
+                    description: "750 ml",
                     price: 5.99,
-                    image: "https://images.unsplash.com/photo-1528975604071-b4dc52a2d18c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&h=500&q=80"
+                    image: "black.jfif"
                 },
                 {
                     id: 2,
-                    name: "Café Cubano",
-                    description: "Café expreso tradicional cubano",
-                    price: 2.99,
-                    image: "https://images.unsplash.com/photo-1521302080334-4bebac2763a6?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&h=500&q=80"
+                    name: "Whisky Johnnie Walker Red Label",
+                    description: "750 ml",
+                    price: 3.99,
+                    image: "red.jfif"
                 }
             ]
         }
