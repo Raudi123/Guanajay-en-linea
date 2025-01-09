@@ -15,6 +15,30 @@ const CONFIG = {
     STORES: [
         {
             id: 'store1',
+            name: 'TuDespensa',
+            description: 'Entrega a domicilio de todo tipo de alimentos frescos y de alta calidad, directamente a tu puerta.',
+            address: 'Guanajay',
+            phone: '',
+            whatsappNumber: '5354066204',
+            products: [
+                {
+                    id: 1,
+                    name: "Jugo La Estancia 1l",
+                    description: "Sabor naranja",
+                    price: 1.50,
+                    image: "jugonaranja.jpg"
+                },
+                {
+                    id: 2,
+                    name: "Jugo 200 ml",
+                    description: "sabor pera",
+                    price: 0.70,
+                    image: "200ml.jfif"
+                }
+            ]
+        },
+        {
+            id: 'store2',
             name: 'Café Matojo',
             description: 'Baristas profesionales, su mejor opción al alcance de un click.',
             address: 'Guanajay',
@@ -38,7 +62,7 @@ const CONFIG = {
             ]
         },
         {
-            id: 'store2',
+            id: 'store3',
             name: 'Cafetería Dulce',
             description: 'Postres, dulces y bebidas calientes',
             address: 'Avenida 5ta, Miramar',
