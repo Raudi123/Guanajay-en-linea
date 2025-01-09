@@ -15,10 +15,10 @@ const CONFIG = {
         {
             id: 'store1',
             name: 'Café Matojo',
-            description: 'Baristas profesionales, su mejor opción al alcance de un click',
+            description: 'Baristas profesionales, su mejor opción al alcance de un click.',
             address: 'Guanajay',
             phone: '',
-            whatsappNumber: '5355551234',
+            whatsappNumber: '5354066204',
             products: [
                 {
                     id: 1,
